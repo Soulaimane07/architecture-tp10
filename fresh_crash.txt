@@ -1,0 +1,679 @@
+﻿
+  12-23 17:39:28.183  1076  
+1363 D SGM:FgCheckThread: 
+onLooperPrepared(), msg: 
+MSG_APP_RESUME, pkgName: 
+ma.projet.restclient, 
+userid: 0
+  12-23 17:39:28.183  1076  
+1363 D SGM:FgCheckThread: 
+handleResume().
+  12-23 17:39:28.183  1076  
+1363 D SGM:FgCheckThread: 
+sendFocusOutConditionally() 
+- mPrevNotiPkg: (unknown), 
+userId: 0
+  12-23 17:39:28.184  1076  
+1363 D SGM:FgCheckThread:   
+handleResume(). pkgName: 
+ma.projet.restclient, 
+userId: 0, category: 
+non-game
+  12-23 17:39:28.184  1076  
+1363 D SGM:FgCheckThread: 
+notifyFocusInOut(). of pkg: 
+ma.projet.restclient, type: 
+4, isSecGameFamily: false, 
+userId: 0
+  12-23 17:39:28.184  1076  
+1363 D SGM:FgCheckThread:   
+notifyFocusInOut(). 
+unexpected mPrevNotiType: -1
+  12-23 17:39:28.184  1076  
+1363 D SGM:SystemHelper: 
+callReleaseBlock 
+needReleaseBlock:false
+  12-23 17:39:28.184 15896 
+15916 V XGL     : ----------
+----------------------------
+----------------------------
+----
+  12-23 17:39:28.184 15896 
+15916 V XGL     : SUMD 
+version compiled date     = 
+2025-06-11 14:47 - KST
+  12-23 17:39:28.184 15896 
+15916 V XGL     : SUMD 
+version revision number   = 
+1fc295b0d2
+  12-23 17:39:28.184 15896 
+15916 V XGL     : SUMD 
+version info              = 
+Driver version: 24.0.545, 
+git hash: 1fc295b0d2
+  12-23 17:39:28.184 15896 
+15916 V XGL     : ----------
+----------------------------
+----------------------------
+----
+  12-23 17:39:28.184 15896 
+15916 V XGL     : Entering: 
+Create
+  12-23 17:39:28.184  1076  
+1489 D BackgroundInstallCont
+rolService: Package event 
+received: 0
+  12-23 17:39:28.196 15896 
+15916 V XGL     : Exiting: 
+Create
+  12-23 17:39:28.206 15896 
+15896 D AppCompatDelegate: 
+Checking for metadata for Ap
+pLocalesMetadataHolderServic
+e : Service not found
+  12-23 17:39:28.211 15896 
+15896 E ashmem  : Pinning 
+is deprecated since Android 
+Q. Please use trim or other 
+methods.
+  12-23 17:39:28.229  1076  
+1076 D 
+PocketProximityManager: 
+setStateOut()
+  12-23 17:39:28.234 15896 
+15896 D 
+CompatChangeReporter: 
+Compat change id reported: 
+377864165; UID 10420; 
+state: ENABLED
+  12-23 17:39:28.236 15896 
+15896 D DesktopModeFlags: 
+Toggle override initialized 
+to: OVERRIDE_UNSET
+  12-23 17:39:28.244 15896 
+15896 I DecorView: 
+setWindowBackground: 
+isPopOver=false 
+color=fffafafa d=android.gra
+phics.drawable.ColorDrawable
+@cf8ca9c
+  12-23 17:39:28.252 15896 
+15896 I ojet.restclient: 
+hiddenapi: Accessing hidden 
+method Landroid/view/View;->
+computeFitSystemWindows(Land
+roid/graphics/Rect;Landroid/
+graphics/Rect;)Z 
+(runtime_flags=0, 
+domain=platform, 
+api=unsupported) from Landro
+idx/appcompat/widget/ViewUti
+ls; (domain=app) using 
+reflection: allowed
+  12-23 17:39:28.252 15896 
+15896 I ojet.restclient: 
+hiddenapi: Accessing hidden 
+method Landroid/view/ViewGro
+up;->makeOptionalFitsSystemW
+indows()V (runtime_flags=0, 
+domain=platform, 
+api=unsupported) from Landro
+idx/appcompat/widget/ViewUti
+ls; (domain=app) using 
+reflection: allowed
+  12-23 17:39:28.267 15896 
+15896 E 
+TransactionExecutor: Failed 
+to execute the transaction: 
+tId:-567112741 
+ClientTransaction{
+  12-23 17:39:28.267 15896 
+15896 E 
+TransactionExecutor: 
+tId:-567112741   
+transactionItems=[
+  12-23 17:39:28.267 15896 
+15896 E 
+TransactionExecutor: 
+tId:-567112741     LaunchAct
+ivityItem{activityToken=andr
+oid.os.BinderProxy@36e4228,i
+ntent=Intent { 
+flg=0x10000000 xflg=0x5 cmp=
+ma.projet.restclient/.MainAc
+tivity },ident=229513826,inf
+o=ActivityInfo{c341b5d ma.pr
+ojet.restclient.MainActivity
+},curConfig={1.0 604mcc1mnc 
+[en_US,fr_FR] ldltr sw360dp 
+w360dp h780dp 480dpi nrml 
+long hdr widecg port night 
+finger -keyb/v/h -nav/h 
+winConfig={ mBounds=Rect(0, 
+0 - 1080, 2340) 
+mAppBounds=Rect(0, 0 - 
+1080, 2340) 
+mMaxBounds=Rect(0, 0 - 
+1080, 2340) 
+mDisplayRotation=ROTATION_0 
+mWindowingMode=fullscreen 
+mActivityType=undefined 
+mAlwaysOnTop=undefined 
+mRotation=ROTATION_0 
+mStageConfig=undefined 
+mPopOver=off mOverlappingWit
+hCutout=false} s.25335 
+fontWeightAdjustment=0 ff=0 
+bf=-1 bts=0 cst=1.0 
+nightDim=0 themeSeq=0},overr
+ideConfig={1.0 604mcc1mnc 
+[en_US,fr_FR] ldltr sw360dp 
+w360dp h780dp 480dpi nrml 
+long hdr widecg port night 
+finger -keyb/v/h -nav/h 
+winConfig={ mBounds=Rect(0, 
+0 - 1080, 2340) 
+mAppBounds=Rect(0, 0 - 
+1080, 2340) 
+mMaxBounds=Rect(0, 0 - 
+1080, 2340) 
+mDisplayRotation=ROTATION_0 
+mWindowingMode=fullscreen 
+mActivityType=standard 
+mAlwaysOnTop=undefined 
+mRotation=ROTATION_0 
+mStageConfig=undefined 
+mPopOver=off mOverlappingWit
+hCutout=false} s.2 
+fontWeightAdjustment=0 ff=0 
+bf=-1 bts=0 cst=1.0 
+nightDim=0 themeSeq=0},devic
+eId=0,referrer=com.android.s
+hell,procState=2,state=null,
+persistentState=null,pending
+Results=null,pendingNewInten
+ts=null,sceneTransitionInfo=
+null,profilerInfo=null,assis
+tToken=android.os.BinderProx
+y@f073246,shareableActivityT
+oken=android.os.BinderProxy@
+f85ec07,activityWindowInfo=A
+ctivityWindowInfo{isEmbedded
+=false, taskBounds=Rect(0, 
+0 - 1080, 2340), 
+taskFragmentBounds=Rect(0, 
+0 - 1080, 2340)}}
+  12-23 17:39:28.267 15896 
+15896 E 
+TransactionExecutor: 
+tId:-567112741     ResumeAct
+ivityItem{mActivityToken=and
+roid.os.BinderProxy@36e4228,
+procState=-1,isForward=true,
+shouldSendCompatFakeFocus=fa
+lse}
+  12-23 17:39:28.267 15896 
+15896 E 
+TransactionExecutor: 
+tId:-567112741     Target 
+activity: ma.projet.restclie
+nt.MainActivity
+  12-23 17:39:28.267 15896 
+15896 E 
+TransactionExecutor: 
+tId:-567112741   ]
+  12-23 17:39:28.267 15896 
+15896 E 
+TransactionExecutor: 
+tId:-567112741 }
+> 12-23 17:39:28.267 15896 
+15896 D AndroidRuntime: 
+Shutting down VM
+  --------- beginning of 
+crash
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 
+FATAL EXCEPTION: main
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 
+Process: 
+ma.projet.restclient, PID: 
+15896
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 
+java.lang.RuntimeException: 
+Unable to start activity Com
+ponentInfo{ma.projet.restcli
+ent/ma.projet.restclient.Mai
+nActivity}: android.view.Inf
+lateException: Binary XML 
+file line #22 in ma.projet.r
+estclient:layout/activity_ma
+in: Binary XML file line 
+#22 in ma.projet.restclient:
+layout/activity_main: Error 
+inflating class com.google.a
+ndroid.material.card.Materia
+lCardView
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.ActivityThread.p
+erformLaunchActivity(Activit
+yThread.java:4710)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.ActivityThread.h
+andleLaunchActivity(Activity
+Thread.java:4941)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.servertransactio
+n.LaunchActivityItem.execute
+(LaunchActivityItem.java:222
+)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.servertransactio
+n.TransactionExecutor.execut
+eNonLifecycleItem(Transactio
+nExecutor.java:133)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.servertransactio
+n.TransactionExecutor.execut
+eTransactionItems(Transactio
+nExecutor.java:103)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.servertransactio
+n.TransactionExecutor.execut
+e(TransactionExecutor.java:8
+0)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.ActivityThread$H
+.handleMessage(ActivityThrea
+d.java:3150)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.os.Handler.dispatchM
+essage(Handler.java:110)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(L
+ooper.java:273)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.os.Looper.loop(Loope
+r.java:363)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.ActivityThread.m
+ain(ActivityThread.java:1006
+0)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+java.lang.reflect.Method.inv
+oke(Native Method)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+com.android.internal.os.Runt
+imeInit$MethodAndArgsCaller.
+run(RuntimeInit.java:632)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+com.android.internal.os.Zygo
+teInit.main(ZygoteInit.java:
+975)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 
+Caused by: android.view.Infl
+ateException: Binary XML 
+file line #22 in ma.projet.r
+estclient:layout/activity_ma
+in: Binary XML file line 
+#22 in ma.projet.restclient:
+layout/activity_main: Error 
+inflating class com.google.a
+ndroid.material.card.Materia
+lCardView
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 
+Caused by: android.view.Infl
+ateException: Binary XML 
+file line #22 in ma.projet.r
+estclient:layout/activity_ma
+in: Error inflating class co
+m.google.android.material.ca
+rd.MaterialCardView
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 
+Caused by: java.lang.reflect
+.InvocationTargetException
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+java.lang.reflect.Constructo
+r.newInstance0(Native 
+Method)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+java.lang.reflect.Constructo
+r.newInstance(Constructor.ja
+va:343)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.view.LayoutInflater.
+createView(LayoutInflater.ja
+va:759)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.view.LayoutInflater.
+createViewFromTag(LayoutInfl
+ater.java:911)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.view.LayoutInflater.
+createViewFromTag(LayoutInfl
+ater.java:866)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.view.LayoutInflater.
+rInflate(LayoutInflater.java
+:1028)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.view.LayoutInflater.
+rInflateChildren(LayoutInfla
+ter.java:989)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.view.LayoutInflater.
+rInflate(LayoutInflater.java
+:1031)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.view.LayoutInflater.
+rInflateChildren(LayoutInfla
+ter.java:989)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.view.LayoutInflater.
+inflate(LayoutInflater.java:
+577)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.view.LayoutInflater.
+inflate(LayoutInflater.java:
+468)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.view.LayoutInflater.
+inflate(LayoutInflater.java:
+419)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+androidx.appcompat.app.AppCo
+mpatDelegateImpl.setContentV
+iew(AppCompatDelegateImpl.ja
+va:775)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+androidx.appcompat.app.AppCo
+mpatActivity.setContentView(
+AppCompatActivity.java:197)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+ma.projet.restclient.MainAct
+ivity.onCreate(MainActivity.
+java:45)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.Activity.perform
+Create(Activity.java:9519)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.Activity.perform
+Create(Activity.java:9488)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.Instrumentation.
+callActivityOnCreate(Instrum
+entation.java:1524)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.ActivityThread.p
+erformLaunchActivity(Activit
+yThread.java:4692)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.ActivityThread.h
+andleLaunchActivity(Activity
+Thread.java:4941)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.servertransactio
+n.LaunchActivityItem.execute
+(LaunchActivityItem.java:222
+)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.servertransactio
+n.TransactionExecutor.execut
+eNonLifecycleItem(Transactio
+nExecutor.java:133)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.servertransactio
+n.TransactionExecutor.execut
+eTransactionItems(Transactio
+nExecutor.java:103)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.servertransactio
+n.TransactionExecutor.execut
+e(TransactionExecutor.java:8
+0)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.app.ActivityThread$H
+.handleMessage(ActivityThrea
+d.java:3150)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.os.Handler.dispatchM
+essage(Handler.java:110)
+> 12-23 17:39:28.271 15896 
+15896 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(L
+ooper.java:273)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+android.os.Looper.loop(Loope
+r.java:363)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+android.app.ActivityThread.m
+ain(ActivityThread.java:1006
+0)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+java.lang.reflect.Method.inv
+oke(Native Method)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+com.android.internal.os.Runt
+imeInit$MethodAndArgsCaller.
+run(RuntimeInit.java:632)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+com.android.internal.os.Zygo
+teInit.main(ZygoteInit.java:
+975)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 
+Caused by: java.lang.Illegal
+ArgumentException: The 
+style on this component 
+requires your app theme to 
+be Theme.MaterialComponents 
+(or a descendant).
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+com.google.android.material.
+internal.ThemeEnforcement.ch
+eckTheme(ThemeEnforcement.ja
+va:247)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+com.google.android.material.
+internal.ThemeEnforcement.ch
+eckMaterialTheme(ThemeEnforc
+ement.java:216)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+com.google.android.material.
+internal.ThemeEnforcement.ch
+eckCompatibleTheme(ThemeEnfo
+rcement.java:144)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+com.google.android.material.
+internal.ThemeEnforcement.ob
+tainStyledAttributes(ThemeEn
+forcement.java:76)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+com.google.android.material.
+card.MaterialCardView.<init>
+(MaterialCardView.java:170)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	at 
+com.google.android.material.
+card.MaterialCardView.<init>
+(MaterialCardView.java:160)
+> 12-23 17:39:28.272 15896 
+15896 E AndroidRuntime: 	
+... 32 more
+  12-23 17:39:28.279  1076  
+2084 D Debug   : low && 
+ship && 3rdparty app crash, 
+do not dump
+  12-23 17:39:28.280  1076 
+15920 W ActivityManager: 
+crash : 
+ma.projet.restclient,10420
+  12-23 17:39:28.280  1076  
+2084 W ActivityTaskManager: 
+  Force finishing activity m
+a.projet.restclient/.MainAct
+ivity
+  12-23 17:39:28.280  1076  
+2084 D WindowManager: 
+Transition is created, 
+t=TransitionRecord{3ca6bc9 
+id=-1 type=CLOSE 
+flags=0x10}, caller=com.andr
+oid.server.wm.Transition.<in
+it>:182 com.android.server.w
+m.TransitionController.creat
+eTransition:17 com.android.s
+erver.wm.TransitionControlle
+r.requestTransitionIfNeeded:
+48 com.android.server.wm.Roo
+tWindowContainer$$ExternalSy
+ntheticLambda34.accept:176 c
+om.android.server.wm.Task.fo
+rAllLeafTasks:6 
+  12-23 17:39:28.280  1076  
+2084 D BLASTSyncEngine: 
+SyncGroup is created, 
+id=8187, 
+name=Transition-CLOSE, calle
+r=com.android.server.wm.BLAS
+TSyncEngine$SyncGroup.<init>
+:52 com.android.server.wm.Tr
+ansitionController.moveToCol
+lecting:79 com.android.serve
+r.wm.TransitionController.cr
+eateTransition:46 com.androi
+d.server.wm.TransitionContro
+ller.requestTransitionIfNeed
+ed:48 com.android.server.wm.
+RootWindowContainer$$Externa
+lSyntheticLambda34.accept:17
+6 com.android.server.wm.Task
+.forAllLeafTasks:6 com.andro
+id.server.wm.WindowContainer
+.forAllLeafTasks:4 
+  12-23 17:39:28.280  1076  
+2084 W BLASTSyncEngine: 
+setSyncMethod, id=8187, 
+method=0, caller=com.android
+.server.wm.TransitionControl
+ler.moveToCollecting:91 com.
+android.server.wm.Transition
+Controller.createTransition:
+46 com.android.server.wm.Tra
+nsitionController.requestTra
+nsitionIfNeeded:48 
+  12-23 17:39:28.280  1076  
+2084 V WindowManager: Start 
+collecting in Transition: 
+TransitionRecord{3ca6bc9 
+id=8187 type=CLOSE 
+flags=0x10}, caller=com.andr
+oid.server.wm.TransitionCont
+roller.createTransition:46 c
+om.android.server.wm.Transit
+ionController.requestTransit
+ionIfNeeded:48 com.android.s
+erver.wm.RootWindowContainer
+$$ExternalSyntheticLambda34.
+accept:176 com.android.serve
+r.wm.Task.forAllLeafTasks:6 
+com.android.server.wm.Window
+Container.forAllLeafTasks:4 
+  12-23 17:39:28.280  1076  
+2084 V WindowManager: 
+Requesting StartTransition: 
+TransitionRecord{3ca6bc9 
+id=8187 type=CLOSE 
+flags=0x10}, caller=com.andr
+oid.server.wm.TransitionCont
+roller.requestTransitionIfNe
+eded:56 com.android.server.w
+m.RootWindowContainer$$Exter
+nalSyntheticLambda34.accept:
+176 com.android.server.wm.Ta
+sk.forAllLeafTasks:6 com.and
+roid.server.wm.WindowContain
+er.forAllLeafTasks:4 com.and
+roid.server.wm.DisplayArea.f
+orAllLeafTasks:4 
+  12-23 17:39:28.281  1076  
+2084 V WindowManager: 
+Collecting in transition 
+8187: Task{8f747f3 #1328 
+type=standard A=10420:ma.pro
+jet.restclient}, caller=com.
+android.server.wm.Transition
+.collectExistenceChange:40 c
+om.android.server.wm.Transit
+ion.collectClose:7 com.andro
+id.server.wm.ActivityRecord.
+finishIfPossible:50 com.andr
+oid.server.wm.ActivityRecord
+.finishIfPossible:1 com.andr
+oid.server.wm.RootWindowCont
+ainer$$ExternalSyntheticLamb
+da34.accept:179 
+  12-23 17:39:28.281  1076  
+2084 D WindowManager: 
+prepareSync <SYNC_STATE_WAIT
+ING_FOR_DRAW>, 
+mPrepareSyncSeqId=0, 
+win=Window{1d2cc99 u0 
+Splash Screen 
+ma.projet.restclient}
+
+
